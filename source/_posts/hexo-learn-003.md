@@ -1,5 +1,5 @@
 ---
-title: Hexo配置
+title: Hexo · 配置
 date: 2018-10-29 14:43:28
 tags: hexo
 ---

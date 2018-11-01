@@ -1,5 +1,5 @@
 ---
-title: Hexo建站
+title: Hexo · 建站
 date: 2018-10-29 14:32:25
 tags: hexo
 ---

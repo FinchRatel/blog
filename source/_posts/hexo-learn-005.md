@@ -1,5 +1,5 @@
 ---
-title: Hexo迁移
+title: Hexo · 迁移
 date: 2018-10-29 17:10:18
 tags: hexo
 ---
