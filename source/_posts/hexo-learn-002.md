@@ -4,6 +4,21 @@ date: 2018-10-29 14:32:25
 tags: hexo
 ---
 
+> ---
+> **`_config.yml` 配置**
+>
+> **`package.json` 应用信息**
+>
+> **`scaffolds` 模板**
+>
+> **`source` 资源**
+>
+> **`theme` 主题**
+>
+> ---
+
+<!--more-->
+
 ### 创建
 
 ```bash
@@ -11,8 +26,6 @@ $ hexo init blog
 $ cd blog
 $ npm install
 ```
-
-<!--more-->
 
 - _config.yml
 

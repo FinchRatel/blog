@@ -4,12 +4,39 @@ date: 2018-10-29 15:03:17
 tags: hexo
 ---
 
+> ---
+>
+> **init**
+>
+> **new**
+>
+> **generate**
+>
+> **publish**
+>
+> **server**
+>
+> **deploy**
+>
+> **render**
+>
+> **migrate**
+>
+> **clean**
+>
+> **list**
+>
+> **version**
+>
+> ---
+
+<!--more-->
+
 ### init
+
 ```bash
 $ hexo init blog
 ```
-
-<!--more-->
 
 ### new *新建文章*
 ```bash
