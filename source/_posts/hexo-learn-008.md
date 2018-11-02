@@ -85,7 +85,7 @@ content
 content
 {% endpullquote %}
 
-## jsFiddle
+### jsFiddle
 - 用法
 ```
 {% jsfiddle shorttag [tabs] [skin] [width] [height] %}
@@ -110,7 +110,7 @@ content
 {% img [class names] /path/to/image [width] [height] [title text [alt text]] %}
 ```
 - 效果
-![img](\images\icon-heart.svg)
+![img](\images\dog.png)
 
 ### Link
 - 用法
