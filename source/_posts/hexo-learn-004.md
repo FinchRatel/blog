@@ -5,7 +5,6 @@ tags: hexo
 ---
 
 > ---
->
 > **init**
 >
 > **new**

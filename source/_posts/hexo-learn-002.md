@@ -27,7 +27,7 @@ $ cd blog
 $ npm install
 ```
 
-- _config.yml
+- \_config.yml
 
   配置信息
 
