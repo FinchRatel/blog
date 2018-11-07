@@ -4,38 +4,21 @@ date: 2018-11-01 17:11:27
 tags: hexo
 ---
 
-> ---
-> **引用块**
->
-> **代码块**
->
-> **反引号代码块**
->
-> **Pull Quote**
->
-> **jsFiddle**
->
-> **Gist**
->
-> **iframe**
->
-> **Image**
->
-> **Link**
->
-> **Include Code**
->
-> **Youtube**
->
-> **Vimeo**
->
-> **引用文章**
->
-> **引用资源**
->
-> **Raw**
->
-> ---
+**1. 引用块**
+**2. 代码块**
+**3. 反引号代码块**
+**4. Pull Quote**
+**5. jsFiddle**
+**6. Gist**
+**7. iframe**
+**8. Image**
+**9. Link**
+**10. Include Code**
+**11. Youtube**
+**12. Vimeo**
+**13. 引用文章**
+**14. 引用资源**
+**15. Raw**
 
 <!-- more -->
 

@@ -4,19 +4,15 @@ date: 2018-11-02 22:58:59
 tags: hexo
 ---
 
-> ---
-> **数据文件**
->
-> ---
+**1. 数据文件**
 
 <!-- more -->
 
 ### 数据文件
-> hexo3.0新增数据文件功能
->
-> 载入`source/_data`内的YAML/JSON文件
+hexo3.0新增数据文件功能
+自动载入`source/_data`内的YAML/JSON文件
 
-```yaml
+```yaml source/_data/menu.yml
 Home: /
 Archives: /archives/
 ```
