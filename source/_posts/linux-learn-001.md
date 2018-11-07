@@ -5,15 +5,19 @@ tags: linux
 ---
 
 **1. 查看环境变量**
+**2. 设置临时环境变量**
+**3. 当前用户的环境变量**
+**4. 所有用户的环境变量**
 
 <!-- more -->
 
 ### 查看环境变量
+- `$PATH`
 ```bash
 [root@localhost ~]# echo $PATH
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
 ```
-
+- `export`
 ```bash
 [root@localhost node-v11.1.0-linux-x64]# export
 declare -x HISTCONTROL="ignoredups"
@@ -42,7 +46,8 @@ declare -x XDG_RUNTIME_DIR="/run/user/0"
 declare -x XDG_SESSION_ID="1"
 ```
 
-### 设置临时环境变量，重启消失
+### 临时环境变量
+- 重启后临时环境变量消失
 ```bash
 [root@localhost opt]# export PATH=/opt/nodejs/bin:$PATH
 [root@localhost opt]# node -v
@@ -51,7 +56,7 @@ v11.1.0
 6.4.1
 ```
 
-### 设置当前用户的环境变量(CentOS)
+### 当前用户的环境变量(CentOS)
 - 编辑 `~/.bash_profile`
 ```bash
 [root@localhost ~]# vi .bash_profile 
@@ -69,7 +74,7 @@ v11.1.0
 6.4.1
 ```
 
-### 设置所有用户的环境变量
+### 所有用户的环境变量
 - 编辑 `/etc/profile`
 ```bash
 [root@localhost ~]# vi .bash_profile 
