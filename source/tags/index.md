@@ -8,3 +8,4 @@ date: 2018-11-09 10:56:04
 - [linux-env](/tags/linux-env)
 - [es6-promise](/tags/es6-promise)
 - [es6-async](/tags/es6-async)
+- [vue-lifeCircle](/tags/vue-lifeCircle)
