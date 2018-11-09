@@ -1,7 +1,8 @@
 ---
 title: Hexo · 标签插件
 date: 2018-11-01 17:11:27
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. 引用块**

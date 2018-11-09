@@ -1,7 +1,8 @@
 ---
 title: Hexo · 数据文件夹
 date: 2018-11-02 22:58:59
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. 数据文件**

@@ -1,7 +1,8 @@
 ---
 title: Hexo · 生成器
 date: 2018-11-03 11:09:22
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. 生成文件**

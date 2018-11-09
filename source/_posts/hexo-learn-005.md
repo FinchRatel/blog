@@ -1,7 +1,8 @@
 ---
 title: Hexo · 迁移
 date: 2018-10-29 17:10:18
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. RSS**

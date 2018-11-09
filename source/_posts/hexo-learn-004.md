@@ -1,7 +1,8 @@
 ---
 title: Hexo · 命令
 date: 2018-10-29 15:03:17
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. init**

@@ -1,7 +1,8 @@
 ---
 title: Hexo · 部署
 date: 2018-11-03 11:16:09
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. Git**

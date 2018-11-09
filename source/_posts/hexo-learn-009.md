@@ -1,7 +1,8 @@
 ---
 title: hexo · 资源文件夹
 date: 2018-11-02 16:14:56
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. 资源文件夹**

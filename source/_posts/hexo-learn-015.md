@@ -1,7 +1,8 @@
 ---
 title: Hexo · 主题
 date: 2018-11-05 10:15:17
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. 更换主题**

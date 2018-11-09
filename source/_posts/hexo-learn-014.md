@@ -1,7 +1,8 @@
 ---
 title: Hexo · 永久链接
 date: 2018-11-04 15:37:53
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. 变量**

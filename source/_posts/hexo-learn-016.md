@@ -1,7 +1,8 @@
 ---
 title: Hexo · 模板
 date: 2018-11-05 15:55:58
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. 模板**

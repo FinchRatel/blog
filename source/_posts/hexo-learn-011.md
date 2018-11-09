@@ -1,7 +1,8 @@
 ---
 title: Hexo · 服务器
 date: 2018-11-03 10:29:30
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. hexo-server**

@@ -1,7 +1,8 @@
 ---
 title: ES6 · Promise
 date: 2018-11-07 18:17:47
-tags: es6
+categories: es6
+tags: es6-promise
 ---
 
 **1. 理解Promise**

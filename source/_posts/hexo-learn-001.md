@@ -1,7 +1,8 @@
 ---
 title: Hexo · 概述
 date: 2018-10-29 11:10:37
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. `Hexo` 是一个快速、简洁且高效的博客框架**

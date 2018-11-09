@@ -1,7 +1,8 @@
 ---
 title: Hexo · Front-Matter
 date: 2018-11-01 16:06:00
-tags: hexo
+categories: hexo
+tags: hexo-blog
 ---
 
 **1. `layout` 布局**

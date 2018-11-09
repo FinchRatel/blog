@@ -1,9 +1,8 @@
 ---
 title: Nodejs · 安装
 date: 2018-11-06 11:41:48
-tags: 
-  - nodejs
-  - linux
+categories: nodejs
+tags: nodejs-install
 ---
 
 **1. 官网**
