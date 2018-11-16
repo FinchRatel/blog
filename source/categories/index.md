@@ -1,5 +1,5 @@
 ---
-title: categories
+title: 分类
 date: 2018-11-09 10:58:41
 ---
 
@@ -8,3 +8,5 @@ date: 2018-11-09 10:58:41
 - [hexo](/categories/hexo)
 - [linux](/categories/linux)
 - [nodejs](/categories/nodejs)
+- [vim](/categories/vim)
+- [git](/categories/git)

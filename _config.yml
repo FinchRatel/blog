@@ -81,12 +81,12 @@ deploy:
 - type: git
   repo: https://github.com/FinchRatel/FinchRatel.github.io.git
   branch: master
-- type: ftpsync
-  host: haohaoman.ftp-gz01.bcehost.com
-  user: haohaoman
-  pass: Haohao1012
-  remote: /webroot # 远程主机的根目录
-  port: 8010
-  #ignore: [ignore] # 忽略的文件或目录
-  #connections: [connections] # 使用连接数 1
-  #verbose: Boolean # 显示调试信息 true
+# - type: ftpsync
+#   host: haohaoman.ftp-gz01.bcehost.com
+#   user: haohaoman
+#   pass: Haohao1012
+#   remote: /webroot # 远程主机的根目录
+#   port: 8010
+#   ignore: [ignore] # 忽略的文件或目录
+#   connections: [connections] # 使用连接数 1
+#   verbose: Boolean # 显示调试信息 true
