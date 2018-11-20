@@ -10,3 +10,4 @@ date: 2018-11-09 10:58:41
 - [nodejs](/categories/nodejs)
 - [vim](/categories/vim)
 - [git](/categories/git)
+- [plan](/categories/plan)

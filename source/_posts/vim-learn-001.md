@@ -2,10 +2,10 @@
 title: VIM ・ 基础01
 date: 2018-11-16 14:02:35
 categories: vim
-tags: vim
+tags: vim-tutor
 ---
 
-**基础01**
+**VIM · 基础01**
 
 <!-- more -->
 
