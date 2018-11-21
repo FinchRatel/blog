@@ -15,6 +15,7 @@ tags: vim-tutor
 h左     l右
     j下
 ```
+
 - 打开/创建
 `vim filename`
 `:e path/to/file`
