@@ -8,6 +8,7 @@ tags: vim-tutor
 **VIM · 基础02**
 
 <!-- more -->
+
 - 删除
 `d [number] motion`
 
