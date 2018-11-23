@@ -15,4 +15,4 @@ tags: plan-blog
 - [ ] `es6 Class`
 - [ ] 基于 `nodejs` 的爬虫
 - [ ] `css flex`
-- [ ] `vim`
+- [x] `vim`

@@ -10,5 +10,6 @@ date: 2018-11-09 10:56:04
 - [es6-async](/tags/es6-async)
 - [vue-lifeCircle](/tags/vue-lifeCircle)
 - [vim-tutor](/tags/vim-tutor)
+- [vim-study](/tags/vim-study)
 - [plan-blog](/tags/plan-blog)
 - [git](/tags/git)
