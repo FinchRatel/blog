@@ -20,5 +20,5 @@ tags: vim-study
 |保存|VIM正常模式|`:w [path/to/file]`|保存到file中|
 |保存|VIM正常模式|`:w! [path/to/file]`|强制保存到file中|
 |保存|VIM正常模式|`:sav [path/to/file]`|另存为file|
-|退出|VIM正常模式|`q`|退出|
-|退出|VIM正常模式|`!q`|强制退出|
+|退出|VIM正常模式|`:q`|退出|
+|退出|VIM正常模式|`:q!`|强制退出|
