@@ -13,3 +13,4 @@ date: 2018-11-09 10:56:04
 - [vim-study](/tags/vim-study)
 - [plan-blog](/tags/plan-blog)
 - [git](/tags/git)
+- [sftp](/tags/sftp)

@@ -16,3 +16,4 @@ tags: plan-blog
 - [ ] 基于 `nodejs` 的爬虫
 - [ ] `css flex`
 - [x] `vim`
+- [x] `sftp`
