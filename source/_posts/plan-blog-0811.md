@@ -11,7 +11,7 @@ tags: plan-blog
 - [ ] `express`
 - [ ] `es6 Proxy`
 - [ ] `es6 Reflect`
-- [ ] `es6 Module`
+- [x] `es6 Module`
 - [ ] `es6 Class`
 - [ ] 基于 `nodejs` 的爬虫
 - [ ] `css flex`
