@@ -18,12 +18,12 @@ tags: es6-promise
 
 <!-- more -->
 
-> 异步编程的传统解决方案是回调函数和事件，在复杂的逻辑中，很容易多层回调函数嵌套(`CallBack Hell`)
+> 异步编程的传统解决方案是回调函数和事件，在复杂的逻辑中，很容易出现多层回调函数嵌套(`Callback Hell`)
 > Promise 是一种新的解决方案，帮助开发者摆脱多层回调函数嵌套问题
 
 ### 理解Promise
 Promise即承诺，即答应未来会做某件事。在未来某个时间，这个承诺可能会实现，也可能会被拒绝。
-例如：A承诺(promise)B，十年后娶B。在这十年里，这个承诺的状态是进行中(pending)。十年后，如果A娶B，这个承诺就实现(状态变为resolved)了。如果A不娶B，这个承诺就被拒绝(转态变为rejected)了。
+例如：A承诺(promise)B，十年后娶B。在这十年里，这个承诺的状态是进行中(状态为pending)。十年后，如果A娶B，这个承诺就实现(状态变为resolved)了。如果A不娶B，这个承诺就被拒绝(转态变为rejected)了。
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
@@ -51,6 +51,11 @@ promise.then(() => {
   BStillLoveA()
 })
 ```
+
+> `Promise`的状态一旦发生变化，就不会再变。
+> `Promise`的状态只能变化一次，而且只能是下面两种之一：
+> `pending` => `resolved`，即承诺达成
+> `pending` => `rejected`，即承诺未达成
 
 ### new Promise()
 创建一个`Promise`实例
