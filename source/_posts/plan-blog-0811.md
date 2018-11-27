@@ -6,7 +6,6 @@ tags: plan-blog
 ---
 
 - [x] `git` 命令行简易教程
-- [ ] `git submodule` 简易教程
 - [ ] `eslint`
 - [ ] `express`
 - [ ] `es6 Proxy`
@@ -17,4 +16,4 @@ tags: plan-blog
 - [ ] `css flex`
 - [x] `vim`
 - [x] `sftp`
-- [ ] `regexp`
+- [ ] `es6 regexp`

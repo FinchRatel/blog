@@ -95,22 +95,17 @@ To ssh://git.moyuqingpen.com.cn:7999/~zhanghao30/playground.git
 ```
 
 ### 示例
-- 提交代码
+
+- 克隆-修改-提交
 ```bash
+# 克隆仓库
+$ git clone ssh://git.moyuqingpen.com.cn:7999/~zhanghao30/playground.git
+# do some change here ...
 # 添加到索引
 $ git add .
 # 记录变动
 $ git commit . -m "tips"
 # 推送到远程分支
-$ git push
-```
-
-- 克隆-修改-提交
-```bash
-$ git clone ssh://git.moyuqingpen.com.cn:7999/~zhanghao30/playground.git
-# do some change here
-$ git add .
-$ git commit . -m "tips"
 $ git push
 ```
 
