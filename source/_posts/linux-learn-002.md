@@ -80,8 +80,8 @@ version                            Show SFTP version
 |`quit`|退出|
 |`cd path`|切换远程目录|
 |`lcd path`|切换本地目录|
-|`pwd`|展示远程当前文件夹|
-|`lpwd`|展示本地当前文件夹|
+|`pwd`|展示远程当前路径|
+|`lpwd`|展示本地当前路径|
 |`ls`|列出远程目录信息|
 |`lls`|列出本地目录信息|
 |`mkdir`|创建远程目录|
