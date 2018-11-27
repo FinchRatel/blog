@@ -13,8 +13,8 @@ tags: nodejs-install
 
 ### 官网
 NodeJS有两个版本：
-`长期维护版`(LTS)推荐多数用户使用，建议开发中使用
-`最新发布版`含实验性功能，建议个人学习时使用
+	`长期维护版`(LTS)推荐多数用户使用，建议开发中使用；
+	`最新发布版`含实验性功能，建议个人学习时使用。
 
 - [官网-英文](https://nodejs.org)
 - [官网-中文](https://nodejs.org/zh-cn/)
@@ -38,10 +38,10 @@ $ make && make install
 - 推荐使用二进制包，下载解压即用
 
 ### npm源
-[官方源](https://registry.npmjs.org/)在国外，速度较慢，建议切换为国内源，推荐使用[`淘宝源`](https://npm.taobao.org/)
+[官方源](https://registry.npmjs.org/)在国外，速度较慢，建议切换为国内源，推荐使用[淘宝源](https://npm.taobao.org/)。
 更换npm源有三种方式，如下：
 
-#### 1.直接修改配置文件
+#### 1.直接修改配置文件(推荐)
 配置文件在 `~/.npmrc`
 
 ```bash .npmrc

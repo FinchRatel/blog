@@ -11,7 +11,6 @@ tags: vim-study
 
 |操作|模式|命令|说明|
 |---|---|---|---|
-|打开|命令行|`vi`|打开VIM|
 |打开|命令行|`vim`|打开VIM|
 |打开|命令行|`vim [path/to/file]`|打开file文件，若不存在，则新建file并打开|
 |打开|VIM正常模式|`:e [path/to/file]`|打开file文件，若不存在，则新建file并打开|

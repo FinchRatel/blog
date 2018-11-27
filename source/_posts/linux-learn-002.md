@@ -69,7 +69,7 @@ symlink oldpath newpath            Symlink remote file
 version                            Show SFTP version
 !command                           Execute 'command' in local shell
 !                                  Escape to local shell
-? 
+? 								   Synonym for help
 ```
 
 - 常用命令一览  
@@ -92,6 +92,8 @@ version                            Show SFTP version
 |`df`|查看磁盘信息|
 |`!command`|在本地shell执行命令|
 |`!`|退出到本地shell|
+|`help`|查看帮助信息|
+|`?`|查看帮助信息|
 
 - 上传下载示例
 ```bash
