@@ -1,8 +1,8 @@
 ---
-title: vim-learn-008
+title: VIM · 小结02
 date: 2018-11-28 13:57:43
-categories:
-tags:
+categories: vim
+tags: vim-study
 ---
 
 ### 进入普通模式(Normal mode)
