@@ -5,6 +5,10 @@ categories: vim
 tags: vim-study
 ---
 
+**VIM · 小结02**
+
+<!-- more -->
+
 ### 进入普通模式(Normal mode)
 - `Esc`
 - `CTRL + [`
@@ -99,3 +103,35 @@ tags: vim-study
 ### 缩进
 - `>>` 向右缩进
 - `<<` 向左缩进
+
+### 视窗操作
+- `:new` 水平分屏
+- `:sp` 水平分屏
+- `:vsp` 垂直分屏
+- `Ctrl + w s` 水平分屏
+- `Ctrl + w v` 垂直分屏
+- `Ctrl + w q` 关闭当前分屏
+- `Ctrl + w o` 打开新视窗，并隐藏之前的所有视窗
+- `Ctrl + w h` 切换到左侧分屏
+- `Ctrl + w j` 切换到下面分屏
+- `Ctrl + w k` 切换到上面分屏
+- `Ctrl + w l` 切换到下册分屏
+- `Ctrl + w H` 移动视窗到左侧
+- `Ctrl + w J` 移动视窗值下面
+- `Ctrl + w K` 移动视窗至上面
+- `Ctrl + w L` 移动视窗至右侧
+- `Ctrl + w -` 减小视窗高度
+- `Ctrl + w +` 增加视窗高度
+
+### 文档加密
+- `vim -x file`
+
+### 设置
+- `:set` 显示所有修改过的配置
+- `:set all` 显示所有的设定值
+- `:set option?` 显示option的设定值
+- `:set nooption` 取消当前设定值
+- `:set autoindent(ai)` 设置自动缩进
+- `:set autowrite(aw)` 设置自动保存，默认未打开
+- `:set background=dark` 设置背景风格
+- `:set backup(bk)` 设置自动备份，默认未打开

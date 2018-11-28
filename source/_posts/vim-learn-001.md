@@ -1,5 +1,5 @@
 ---
-title: VIM ・ 基础01
+title: VIM · 基础01
 date: 2018-11-16 14:02:35
 categories: vim
 tags: vim-tutor
