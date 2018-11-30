@@ -15,6 +15,7 @@ tags: plan-blog
 - [ ] 基于 `nodejs` 的爬虫
 - [ ] `css flex`
 - [x] `vim`
+- [ ] `vim plugin`
 - [x] `sftp`
 - [ ] `es6 regexp`
 - [ ] `webpack`
