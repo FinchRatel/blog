@@ -17,3 +17,5 @@ tags: plan-blog
 - [x] `vim`
 - [x] `sftp`
 - [ ] `es6 regexp`
+- [ ] `webpack`
+- [ ] `nginx`
