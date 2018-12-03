@@ -1,11 +1,11 @@
 ---
-title: ES6 · Class
+title: ES6 · Class基础
 date: 2018-11-30 16:11:16
 categories: es6
 tags: es6-class
 ---
 
-**ES6 · Class**
+**ES6 · Class基础**
 
 <!-- more -->
 
