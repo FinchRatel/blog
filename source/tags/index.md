@@ -10,6 +10,7 @@ date: 2018-11-09 10:56:04
 - [es6-async](/tags/es6-async)
 - [es6-module](/tags/es6-module)
 - [es6-class](/tags/es6-class)
+- [es6-reflect](/tags/es6-reflect)
 - [vue-lifeCircle](/tags/vue-lifeCircle)
 - [vim-tutor](/tags/vim-tutor)
 - [vim-study](/tags/vim-study)
