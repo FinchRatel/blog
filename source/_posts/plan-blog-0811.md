@@ -5,6 +5,10 @@ categories: plan
 tags: plan-blog
 ---
 
+**博客计划 · 2018年**
+
+<!-- more -->
+
 - [x] `git` 命令行简易教程
 - [ ] `eslint`
 - [ ] `es6 Proxy`
@@ -19,3 +23,4 @@ tags: plan-blog
 - [ ] `webpack`
 - [ ] `nginx`
 - [ ] `shell`编程
+- [ ] `python`
