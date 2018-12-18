@@ -23,4 +23,6 @@ tags: plan-blog
 - [ ] `webpack`
 - [ ] `nginx`
 - [ ] `shell`编程
+- [ ] `c`
 - [ ] `python`
+- [ ] 数据结构与算法
