@@ -17,12 +17,12 @@ tags: vim-study
 - `:`
 
 ### 进入插入模式(Insert mode)
-- `i`
-- `I`
-- `a`
-- `A`
-- `o`
-- `O`
+- `i` 在光标前插入
+- `I` 在行首插入
+- `a` 在光标后插入
+- `A` 在行尾插入
+- `o` 在下方插入一行
+- `O` 在上方插入一行
 
 ### 进入可视模式(Visual mode)
 - `v`
@@ -52,6 +52,11 @@ tags: vim-study
 - `p`
 - `P`
 
+### change
+- c [number] motion
+### delete
+- d [number] motion
+
 ### 上下行交换
 - `ddp`
 
@@ -65,6 +70,13 @@ tags: vim-study
 - `u` 撤销一次
 - `U` 撤销当前行的所有更改
 - `Ctrl + r` 取消撤销
+- `:s/old/new/g` 替换当前行所有的old为new
+- `:#,#s/old/new/g` 替换#行到#行的所有的old为new
+- `:%s/old/new/g` 替换整个文档所有的old为new
+
+### 提取内容
+- `:r file` 提取file文件内容，插入光标所在位置
+- `:r !ls` 提取ls命令输入内容，插入光标所在位置
 
 ### 文本位置
 - `ce` 居中
@@ -76,8 +88,11 @@ tags: vim-study
 - `/<单词>` 向下查找word
 - `n` 下一个
 - `N` 上一个
+- `CTRL + O` 回到较旧的位置
+- `CTRL + I9j` 回到较新的位置
 - `\*` 向下查找光标所在单词
 - `\#` 向上查找鼠标所在单词
+- `%` 查找配对括号
 
 ### 多文件编辑
 - `vim 1.txt 2.txt` 同时打开两个文件
@@ -126,6 +141,14 @@ tags: vim-study
 ### 文档加密
 - `vim -x file`
 
+### 执行shell命令
+- `:!ls` 暂时退出vim并执行ls命令
+
+### 选择性保存
+- `v` 进入可视模式
+- `{move cursor}` 移动光标选择文本
+- `:w` 保存
+
 ### 设置
 - `:set` 显示所有修改过的配置
 - `:set all` 显示所有的设定值
@@ -135,3 +158,4 @@ tags: vim-study
 - `:set autowrite(aw)` 设置自动保存，默认未打开
 - `:set background=dark` 设置背景风格
 - `:set backup(bk)` 设置自动备份，默认未打开
+- `:set hlsearch(hls)` 高亮搜索匹配项
