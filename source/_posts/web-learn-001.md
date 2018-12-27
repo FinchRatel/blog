@@ -69,7 +69,7 @@ tags: flex
 - 子项放大比例
 - 0 默认 不放大
 
-`flex-shirnk`
+`flex-shrink`
 - 子项缩小比例
 - 1 默认
 - 0 不缩小
@@ -79,7 +79,7 @@ tags: flex
 - auto 默认
 
 `flex`
-- `flex-grow` `flex-shirnk` `flex-basis`的简写
+- `flex-grow` `flex-shrink` `flex-basis`的简写
 - `0 1 auto` 默认
 
 `align-self`
