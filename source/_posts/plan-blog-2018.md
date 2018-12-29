@@ -16,7 +16,7 @@ tags: plan-blog
 - [x] `es6 Module`
 - [x] `es6 Class`
 - [ ] 基于 `nodejs` 的爬虫
-- [ ] `css flex`
+- [x] `css flex`
 - [x] `vim`
 - [x] `sftp`
 - [ ] `webpack`

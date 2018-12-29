@@ -9,17 +9,15 @@ tags: flex
 
 <!-- more -->
 
-`main axis` 主轴
-`main start` 主轴起点
-`main end` 主轴终点
-`main size` 主轴方向大小
+|---|---|
+|`main axis` 主轴|`cross axis` 交叉轴|
+|`main start` 主轴起点|`cross start` 交叉轴起点|
+|`main end` 主轴终点|`cross end` 交叉轴终点|
+|`main size` 主轴方向大小|`cross size` 交叉轴方向大小|
 
-`cross axis` 交叉轴
-`cross start` 交叉轴起点
-`cross end` 交叉轴终点
-`cross size` 交叉轴方向大小
 
-### 容器
+
+### 容器属性
 `display: flex`
 - 指定flex布局，此时`float`、`clear`、`vertical-align`属性将失效
 
@@ -60,7 +58,7 @@ tags: flex
 - `space-between` 交叉轴两端对齐
 - `space-around` 间隔相等
 
-### 子项
+### 子项属性
 `order`
 - 0 默认
 - 子项的排列顺序，数字越小越靠前
@@ -87,7 +85,9 @@ tags: flex
 - auto 默认 继承父元素的`align-items`
 
 ### 页面布局
-一种常见的页面布局，顶部`header`，左侧`nav`，右侧`content`
+
+#### 圣杯布局
+
 ![img](/images/flex-layout.png)
 
 ```html
@@ -96,7 +96,34 @@ tags: flex
   <head>
     <meta charset="utf-8" />
     <title>flex</title>
-    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      .header {
+        height: 56px;
+        line-height: 56px;
+        text-align: center;
+        background: #cfcfcf;
+      }
+      .container {
+        height: 100%;
+        display: flex;
+      }
+      .nav {
+        background: #dfdfdf;
+        text-align: center;
+        flex: 0 0 200px;
+      }
+      .content {
+        background: #efefef;
+        text-align: center;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <div class="header">header</div>
@@ -108,31 +135,37 @@ tags: flex
 </html>
 ```
 
-```css
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.header {
-  height: 56px;
-  line-height: 56px;
-  text-align: center;
-  background: #cfcfcf;
-}
-.container {
-  height: 100%;
-  display: flex;
-}
-.nav {
-  background: #dfdfdf;
-  text-align: center;
-  flex: 0 0 200px;
-}
-.content {
-  background: #efefef;
-  text-align: center;
-  width: 100%;
-}
+#### 水平居中&&垂直居中
+
+![img](/images/flex_center.png)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+    .container {
+      border: 1px solid #ddd;
+      width: 800px;
+      height: 600px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content {
+      width: 80px;
+      height: 60px;
+      background: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content"></div>
+  </div>
+</body>
+</html>
 ```
