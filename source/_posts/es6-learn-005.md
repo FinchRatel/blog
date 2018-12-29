@@ -21,19 +21,23 @@ class ColorLine extends Line {}
 在constructor方法中，只有调用super方法后，才能使用this
 可继承原生构造函数(String/Number/Boolean/Array/Date/Error/Regexp/Function/Object)
 
-### Object.getPrototypeOf
+### Object.getPrototypeOf() && Reflect.getPrototypeOf()
 判断一个类是否继承自另一个类
+
 ```js
 Object.getPrototypeOf(ColorLine) === Line //true
+Reflect.getPrototypeOf(ColorLine) === Line //true
 ```
+
 - 每个对象都有一个名为__proto__的属性
 - 每个构造函数都有一个名为prototype的方法
 - 每个对象的__proto__指向自身构造函数的prototype
+
 ```js
 class Line {
-	constructor(length) {
-		this.length = length;
-	}
+  constructor(length) {
+    this.length = length;
+  }
 }
 
 const line = new Line(12);
@@ -48,9 +52,11 @@ console.log(Line.__proto__.__proto__ === Object.prototype); //true
 console.log(Line.__proto__.__proto__.__proto__ === null); //true
 // null <= Object <= Function <= Line
 
-console.log(Function.__proto__ === Function.prototype);
-console.log(Object.__proto__ === Function.prototype);
-console.log(Object.__proto__ === Function.__proto__);
+console.log(Function.__proto__ === Function.prototype); //true
+console.log(Object.__proto__ === Function.prototype); //true
+console.log(Object.__proto__ === Function.__proto__); //true
+// Function <= Object
+// Function <= Function
 ```
 
 ### super

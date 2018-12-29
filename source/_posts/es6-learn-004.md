@@ -14,7 +14,6 @@ tags: es6-class
 function Rectangle (width, height) {
   this.width = width;
   this.height = height;
-  this.area = this.width * this.height;
 }
 Rectangle.prototype.getArea = function() {
   return this.width * this.height;
@@ -48,7 +47,10 @@ square.getArea() //16
 类的构造函数，实例化(new)时自动调用
 
 - `static`
-静态方法，通过类调用，不会被实例继承，会被子类继承
+静态方法
+类可以调用，会被子类继承，子类也可以调用
+不会被类的实例继承，类的实例无法调用
+也不会被子类的实例继承，子类的实例也无法调用
 this指向类，而不是实例
 
 - `name`
