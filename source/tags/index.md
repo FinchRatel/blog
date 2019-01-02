@@ -17,4 +17,7 @@ date: 2018-11-09 10:56:04
 - [plan-blog](/tags/plan-blog)
 - [git](/tags/git)
 - [sftp](/tags/sftp)
+- [string](/tags/string)
+- [array](/tags/array)
+- [number](/tags/number)
 - [flex](/tags/flex)

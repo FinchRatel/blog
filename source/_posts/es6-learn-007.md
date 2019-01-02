@@ -1,12 +1,11 @@
 ---
-title: ES6 · String && Number
+title: ES6 · Number
 date: 2018-12-25 17:53:48
 categories: es6
-tags: es6
+tags: number
 ---
 
 **Number**
-**String**
 
 <!-- more -->
 
@@ -31,15 +30,3 @@ tags: es6
 - Math.sign()
 - Math.cbrt() //返回立方根
 - Math.hypot() //返回参数平方和的平方根
-
-### String
-- \u0001
-- \u{1}
-- includes()
-- startsWith()
-- endsWith()
-- repeat()
-- padStart()
-- padEnd()
-- matchAll()
-- \`\`

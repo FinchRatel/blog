@@ -5,19 +5,55 @@ categories: javascript
 tags: array
 ---
 
-**find && filter**
+**ES5 Array API**
+**ES6 Array API**
+**JS Array 遍历**
 
 <!-- more -->
 
-### find && filter
-```js
-let arr = [1, 3, 5, 7, 9];
+### ES5 Array API
+1. concat(p1[array or number], p2...)
+2. join(separator)
+3. push()
+4. pop()
+5. shift()
+6. unshift()
+7. reverse()
+8. slice(start, end)
+9. splice(start, number, item1,...,itemx)
+10. sort(sortBy)
+11. toSource()
+12. toString()
+13. toLocaleString()
+14. valueOf()
 
-let res1 = arr.find(item => item < 5);
-console.log(res1); // 1
-// 返回符合条件的第一个子元素
+### ES6 Array API
+1. 扩展云算符 ...
+2. Array.from()
+3. Array.of()
+4. copyWithin(target, start = 0, end = this.length)
+5. find()
+6. findIndex()
+7. fill()
+8. keys()
+9. values()
+10. entries()
+11. includes()
+12. flat()
+13. flatMap()
 
-let res2 = arr.filter(item => item < 5);
-console.log(res2); // [1, 3]
-// 返回包含所有符合条件的子元素的数组
-```
+### JS Array 遍历
+1. for...in
+2. for...of
+3. forEach()
+4. reduce()
+5. map()
+6. flatMap()
+7. find() 返回符合条件的第一个子元素
+8. findIndex()
+9. filter() 返回包含所有符合条件的子元素的数组
+10. every()
+11. some()
+12. keys()
+13. values()
+14. entries()

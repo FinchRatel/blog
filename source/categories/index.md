@@ -12,3 +12,4 @@ date: 2018-11-09 10:58:41
 - [git](/categories/git)
 - [plan](/categories/plan)
 - [web](/categories/web)
+- [js](/categories/js)
