@@ -9,7 +9,7 @@ tags: es6-class
 
 <!-- more -->
 
-参考文档：[阮一峰 ECMAScript 6 入门](http://es6.ruanyifeng.com/#docs/class-extends)
+参考文档：[阮一峰 ECMAScript 6 入门 -- Class的继承](http://es6.ruanyifeng.com/#docs/class-extends)
 
 ### extends
 ```js
