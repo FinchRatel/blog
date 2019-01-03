@@ -7,6 +7,7 @@ tags: string
 
 **ES5 String API**
 **ES6 String API**
+**参考文档**
 
 <!-- more -->
 
@@ -37,7 +38,7 @@ tags: string
 24. concat()
 25. substr(start, length)
 26. substring(start, end)
-27. slice(start, end)
+27. slice(start, end) 接收负参数
 28. toLocaleLowerCase()
 29. toLocaleUpperCase()
 30. toLowerCase()
@@ -62,5 +63,6 @@ tags: string
 13. 模板字符串 \`\`
 14. String.raw()
 
-> [ES5 String 参考文档](http://www.w3school.com.cn/jsref/jsref_obj_string.asp)
-> [ES6 String 参考文档](http://es6.ruanyifeng.com/#docs/string)
+### 参考文档
+1. [ES5 String 参考文档](http://www.w3school.com.cn/jsref/jsref_obj_string.asp)
+2. [ES6 String 参考文档](http://es6.ruanyifeng.com/#docs/string)

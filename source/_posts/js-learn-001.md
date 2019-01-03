@@ -8,6 +8,7 @@ tags: array
 **ES5 Array API**
 **ES6 Array API**
 **JS Array 遍历**
+**参考文档**
 
 <!-- more -->
 
@@ -57,3 +58,7 @@ tags: array
 12. keys()
 13. values()
 14. entries()
+
+### 参考文档
+1. [ES5 Array 参考文档](http://www.w3school.com.cn/jsref/jsref_obj_array.asp)
+2. [ES6 Array 参考文档](http://es6.ruanyifeng.com/#docs/array)
