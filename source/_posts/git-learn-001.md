@@ -19,7 +19,7 @@ tags: git
 ### clone
 - 克隆远程仓库到本地
 ```bash
-$ git clone ssh://git@git.moyuqingpen.com.cn:7999/~zhanghao30/playground.git
+$ git clone ssh://git@git.moyuqingpen.com.cn:7999/~zhanghao/playground.git
 Cloning into 'playground'...
 remote: 对象计数中: 155, 完成.
 remote: 压缩对象中: 100% (133/133), 完成.
@@ -88,9 +88,9 @@ Writing objects: 100% (3/3), 271 bytes | 271.00 KiB/s, done.
 Total 3 (delta 1), reused 0 (delta 0)
 remote:
 remote: Create pull request for develop:
-remote:   https://git.moyuqingpen.com.cn/users/zhanghao30/repos/playground/compare/commits?sourceBranch=refs/heads/develop
+remote:   https://git.moyuqingpen.com.cn/users/zhanghao/repos/playground/compare/commits?sourceBranch=refs/heads/develop
 remote:
-To ssh://git.moyuqingpen.com.cn:7999/~zhanghao30/playground.git
+To ssh://git.moyuqingpen.com.cn:7999/~zhanghao/playground.git
    dbe505a..dcf6cc8  develop -> develop
 ```
 
@@ -99,7 +99,7 @@ To ssh://git.moyuqingpen.com.cn:7999/~zhanghao30/playground.git
 - 克隆-修改-提交
 ```bash
 # 克隆仓库
-$ git clone ssh://git.moyuqingpen.com.cn:7999/~zhanghao30/playground.git
+$ git clone ssh://git.moyuqingpen.com.cn:7999/~zhanghao/playground.git
 # do some change here ...
 # 添加到索引
 $ git add .
