@@ -8,14 +8,11 @@ tags: flex
 **CSS · Flex**
 
 <!-- more -->
-
-|---|---|
 |`main axis` 主轴|`cross axis` 交叉轴|
+|---|---|
 |`main start` 主轴起点|`cross start` 交叉轴起点|
 |`main end` 主轴终点|`cross end` 交叉轴终点|
 |`main size` 主轴方向大小|`cross size` 交叉轴方向大小|
-
-
 
 ### 容器属性
 `display: flex`
@@ -30,7 +27,7 @@ tags: flex
 `flex-wrap` 是否换行
 - `nowrap` 默认 不换行
 - `wrap` 换行
-- `wrap-reverse` 换行
+- `wrap-reverse` 反向换行
 
 `flex-flow` 主轴方向和是否换行
 - `row nowrap` 默认
@@ -88,84 +85,60 @@ tags: flex
 
 #### 圣杯布局
 
-![img](/images/flex-layout.png)
+![img](/images/holy_grail_layout.png)
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title>flex</title>
+    <title>flex test</title>
     <style type="text/css">
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-      .header {
-        height: 56px;
-        line-height: 56px;
-        text-align: center;
-        background: #cfcfcf;
-      }
-      .container {
-        height: 100%;
-        display: flex;
-      }
-      .nav {
-        background: #dfdfdf;
-        text-align: center;
-        flex: 0 0 200px;
-      }
-      .content {
-        background: #efefef;
-        text-align: center;
-        width: 100%;
-      }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      display: flex;
+      flex-flow: column nowrap;
+    }
+    .header,
+    .footer {
+      background: #eee;
+      flex: 0 0 56px;
+      text-align: center;
+      line-height: 56px;
+    }
+    .main {
+      height: 400px;
+      background: #ddd;
+      display: flex;
+      line-height: 400px;
+      text-align: center;
+    }
+    .left {
+      flex: 0 0 160px;
+      background: #ccc;
+    }
+    .center {
+      flex: 1;
+    }
+    .right {
+      flex: 0 0 160px;
+      background: #bbb;
+      align-self: flex-end;
+    }
     </style>
   </head>
   <body>
-    <div class="header">header</div>
     <div class="container">
-      <div class="nav">nav</div>
-      <div class="content">content<div>
+      <div class="header">HEADER</div>
+      <div class="main">
+        <div class="left">LEFT</div>
+        <div class="center">CENTER</div>
+        <div class="right">RIGHT</div>
+      </div>
+      <div class="footer">FOOTER</div>
     </div>
   </body>
-</html>
-```
-
-#### 水平居中&&垂直居中
-
-![img](/images/flex_center.png)
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <style type="text/css">
-    .container {
-      border: 1px solid #ddd;
-      width: 800px;
-      height: 600px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .content {
-      width: 80px;
-      height: 60px;
-      background: #aaa;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="content"></div>
-  </div>
-</body>
 </html>
 ```
