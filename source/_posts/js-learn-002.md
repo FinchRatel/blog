@@ -7,11 +7,10 @@ tags: string
 
 **ES5 String API**
 **ES6 String API**
-**参考文档**
 
 <!-- more -->
 
-### ES5 String API 
+### ES5 String API
 1. sub()
 2. sup()
 3. big()
@@ -47,7 +46,10 @@ tags: string
 33. toString()
 34. valueOf()
 
-### ES6 String API 
+> [参考文档](http://www.w3school.com.cn/jsref/jsref_obj_string.asp)
+---
+
+### ES6 String API
 1. 字符串的Unicode表示法
 2. codePointAt() && charCodeAt()
 3. fromCodePoint() && fromCharCode()
@@ -63,6 +65,4 @@ tags: string
 13. 模板字符串 \`\`
 14. String.raw()
 
-### 参考文档
-1. [ES5 String 参考文档](http://www.w3school.com.cn/jsref/jsref_obj_string.asp)
-2. [ES6 String 参考文档](http://es6.ruanyifeng.com/#docs/string)
+> [参考文档](http://es6.ruanyifeng.com/#docs/string)
