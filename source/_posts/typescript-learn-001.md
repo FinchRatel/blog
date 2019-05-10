@@ -1,5 +1,5 @@
 ---
-title: typescript001
+title: typescript
 date: 2019-04-08 14:17:37
 categories: typescript
 tags:
