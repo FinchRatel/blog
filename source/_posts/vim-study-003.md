@@ -22,3 +22,11 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=4
 ```
+```bash
+# 对应简写
+set ai
+set et
+set sw=4
+set ts=4
+set sts=4
+```
