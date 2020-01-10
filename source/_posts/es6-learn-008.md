@@ -56,7 +56,7 @@ function removeRepeat(list) {
  * 检查数组是否有重复项
  */
 function hasRepeat(list) {
-  return list.length !== [...new Set(list)].length;
+  return list.length !== new Set(list).size;
 }
 
 /**
