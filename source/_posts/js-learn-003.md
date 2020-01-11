@@ -5,6 +5,13 @@ categories: h5
 tags: h5
 ---
 
+**setItem(key, value)**
+**getItem(key)**
+**removeItem(key)**
+**clear()**
+
+<!-- more -->
+
 ### API
 ```js
 const storage = localStorage // or sessionStorage
